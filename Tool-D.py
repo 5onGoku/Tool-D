@@ -1,11 +1,13 @@
 import os
-print(" ")
-print(" ===== ===== ===== =        ====== ")
-print("   =   =   = =   = =         =    =")
-print("   =   =   = =   = =    ===  =    =")
-print("   =   =   = =   = =         =    =")
-print("   =   ===== ===== ====     ====== ")
-print(" ")
+banner = ''' 
+            ===== ===== ===== =        ======
+              =   =   = =   = =         =    =
+              =   =   = =   = =    ===  =    =
+              =   =   = =   = =         =    =
+              =   ===== ===== ====     ======
+'''
+
+print(banner)
 
 print("[0] update Tool-D to newest version")
 print("[1] TBomb")
